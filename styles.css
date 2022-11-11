@@ -1,0 +1,59 @@
+body {
+  background-color: #fef4f4;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#searchButton,
+#searchBar {
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 32px;
+}
+
+#searchButton {
+  background-color: #f54748;
+  outline: 2px solid #f54748;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+#searchButton:hover {
+  background-color: white;
+  color: #f54748;
+
+  transition-duration: 0.4s;
+}
+
+#searchBar {
+  background-color: white;
+  outline: 2px solid #f54748;
+}
+
+#searchBarWrap {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+#recipeName {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+#ingredientList li {
+  padding: 4px;
+}
